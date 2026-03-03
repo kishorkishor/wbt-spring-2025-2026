@@ -1,0 +1,19 @@
+.project {
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid rgb(230, 230, 235);
+}
+
+.project img {
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+.project h3 {
+    color: rgb(0, 90, 180);
+}

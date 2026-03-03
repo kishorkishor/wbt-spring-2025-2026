@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 249, 250);
+    color: rgb(51, 51, 51);
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+header {
+    background-color: rgb(25, 25, 35);
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 18px 0;
+    color: rgb(190, 190, 200);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    padding: 40px 30px;
+    max-width: 1000px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: rgb(25, 25, 35);
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(230, 230, 235);
+    color: rgb(40, 40, 50);
+    font-size: 22px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: rgb(102, 102, 232);
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 12px;
+    color: rgb(55, 55, 65);
+}
+
+a {
+    color: rgb(0, 90, 180);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 60, 130);
+    text-decoration: underline;
+}
+
+ul {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgb(220, 220, 225);
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    padding: 8px 12px;
+    background-color: rgb(25, 25, 35);
+    color: white;
+    text-align: left;
+}
+
+td {
+    padding: 8px 12px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid rgb(200, 200, 210);
+}
+
+legend {
+    padding: 0 10px;
+    color: rgb(25, 25, 35);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    padding: 8px 12px;
+    border: 1px solid rgb(200, 200, 210);
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(25, 25, 35);
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(50, 50, 65);
+}
+
+input[type="reset"] {
+    padding: 10px 25px;
+    border: 1px solid rgb(200, 200, 210);
+    background-color: white;
+    color: rgb(51, 51, 51);
+    font-family: Georgia, serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+select {
+    padding: 8px 12px;
+    border: 1px solid rgb(200, 200, 210);
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+textarea {
+    padding: 8px 12px;
+    border: 1px solid rgb(200, 200, 210);
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 35px 40px;
+    background-color: rgb(25, 25, 35);
+    color: rgb(160, 160, 170);
+    font-size: 14px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 5px;
+    color: rgb(160, 160, 170);
+}
+
+footer a {
+    color: rgb(120, 170, 220);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 28px;
+    height: 28px;
+    border: none;
+    filter: invert(100) brightness(100); /* color ultaya disi  */
+    opacity: 1;
+}
+
+.social-icons img:hover {
+    opacity: 1;
+}
+
+.logo {
+    display: inline-block;
+    padding: 14px 0;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.footer-content {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.footer-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-title {
+    margin-bottom: 15px;
+}
+
+.footer-copy {
+    margin-top: 15px;
+    color: rgb(120, 120, 130);
+    font-size: 13px;
+}
+
+.active {
+    color: white;
+}

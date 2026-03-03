@@ -1,0 +1,18 @@
+.contact-form {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid rgb(230, 230, 235);
+}
+
+.contact-form table {
+    width: 100%;
+}
+
+.contact-form td {
+    padding: 10px 12px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
